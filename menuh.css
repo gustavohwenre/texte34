@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin:auto;
+    padding: 0;
+    font-family: Anton;
+    background-image: url(/802.jpg);
+   background-size:unset;
+  
+    
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:pink;
+}
+#menu{
+    background-color:white  ;
+    height: 50px;
+    margin-top: 0%;
+}
+a:hover{
+    opacity: 0.7;
+    font-weight: bold;
+    transition: 2.s;
+}
+img{
+    height: 25px;
+    margin-top: 18px;
+}
+#logo{
+    height: 30px;
+    margin-right: 100px;
+    width: px;
+}
+#divlogo{
+    width: 50px;
+    height: 80px;
+    float: left;
+
+}

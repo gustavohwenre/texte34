@@ -1,0 +1,54 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-image:url(/goft.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: black;
+    font-family: Verdana;
+    font-weight: 100;
+    text-align: center;
+}
+span{
+    margin-left: 20px;
+    text-indent: 100pt;
+}
+a:link{
+    
+    color:rgb(250, 250, 250);
+    font-family:'Courier New', Courier, monospace;  
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: pink;
+    font-weight: bold;
+    color: azure;
+    border: red solid 8px;
+    border-radius: 5px;
+}
+p{
+    margin-left:20px;
+    text-indent: 100pt;
+}
+ul li {
+    text-indent: 120px; 
+    padding: 10px;
+    list-style: none;
+
+}
+
+a:visited{
+    color:black;
+}
+
+a:active{
+    color: red;
+}
+
+
+ul li a:link{
+    color: red;
+}

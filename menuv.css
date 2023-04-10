@@ -1,0 +1,57 @@
+body{  
+font-family: 'Cabin', sans-serif;
+margin: 0;
+padding: 0;
+background-image: url(/ima.jpg);
+background-size:cover;
+}
+
+.container{
+    width: auto;
+    height: 100vh;
+
+}
+
+ul {
+list-style: none;
+margin-top: 0;
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+ul li{
+    
+    padding: 10px;
+}
+
+a:hover{
+    background-color:white;
+    display: block;
+    border-bottom: solid rgb(124, 191, 156) ;
+    transition: .3s;
+}
+
+.menuv{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(254, 129, 132);
+    float: left;
+   /* margin-right: 20px;*/
+}
+li:last-child a{
+    background-color: white ;
+
+}
+.texto{
+    width: auto;
+    height: 100vh;
+    /*margin-left: 20px;*/
+    
+}
+
+h2{
+    text-align: center;
+}
